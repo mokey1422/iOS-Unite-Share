@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842709FE1D78374800F772B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842709FD1D78374800F772B2 /* main.m */; };
+		84270A011D78374800F772B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84270A001D78374800F772B2 /* AppDelegate.m */; };
+		84270A041D78374800F772B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84270A031D78374800F772B2 /* ViewController.m */; };
+		84270A071D78374800F772B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84270A051D78374800F772B2 /* Main.storyboard */; };
+		84270A091D78374800F772B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84270A081D78374800F772B2 /* Assets.xcassets */; };
+		84270A0C1D78374800F772B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84270A0A1D78374800F772B2 /* LaunchScreen.storyboard */; };
+		84270A171D78374800F772B2 /* TimerRetain__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84270A161D78374800F772B2 /* TimerRetain__________Tests.m */; };
+		84270A221D78374800F772B2 /* TimerRetain__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84270A211D78374800F772B2 /* TimerRetain__________UITests.m */; };
+		84270A311D78375F00F772B2 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84270A301D78375F00F772B2 /* ViewController1.m */; };
+		84584B2B1D7EC74D00D6235C /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 84584B2A1D7EC74D00D6235C /* NSTimer+Block.m */; };
+		848D31291D8FF33C00ED4B57 /* TestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D31281D8FF33C00ED4B57 /* TestProxy.m */; };
+		84B37F1F1D8E9BD100D019B1 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B37F1E1D8E9BD100D019B1 /* YYWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84270A131D78374800F772B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842709F11D78374800F772B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842709F81D78374800F772B2;
+			remoteInfo = "TimerRetain导致循环引用问题探讨";
+		};
+		84270A1E1D78374800F772B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842709F11D78374800F772B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842709F81D78374800F772B2;
+			remoteInfo = "TimerRetain导致循环引用问题探讨";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842709F91D78374800F772B2 /* TimerRetain导致循环引用问题探讨.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimerRetain导致循环引用问题探讨.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842709FD1D78374800F772B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842709FF1D78374800F772B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84270A001D78374800F772B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84270A021D78374800F772B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84270A031D78374800F772B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84270A061D78374800F772B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84270A081D78374800F772B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84270A0B1D78374800F772B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84270A0D1D78374800F772B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84270A121D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimerRetain导致循环引用问题探讨Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84270A161D78374800F772B2 /* TimerRetain__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TimerRetain__________Tests.m"; sourceTree = "<group>"; };
+		84270A181D78374800F772B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84270A1D1D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimerRetain导致循环引用问题探讨UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84270A211D78374800F772B2 /* TimerRetain__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TimerRetain__________UITests.m"; sourceTree = "<group>"; };
+		84270A231D78374800F772B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84270A2F1D78375F00F772B2 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		84270A301D78375F00F772B2 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		84584B291D7EC74D00D6235C /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		84584B2A1D7EC74D00D6235C /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+		848D31271D8FF33C00ED4B57 /* TestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProxy.h; sourceTree = "<group>"; };
+		848D31281D8FF33C00ED4B57 /* TestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProxy.m; sourceTree = "<group>"; };
+		84B37F1D1D8E9BD100D019B1 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		84B37F1E1D8E9BD100D019B1 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842709F61D78374800F772B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A0F1D78374800F772B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A1A1D78374800F772B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842709F01D78374800F772B2 = {
+			isa = PBXGroup;
+			children = (
+				842709FB1D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */,
+				84270A151D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests */,
+				84270A201D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests */,
+				842709FA1D78374800F772B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842709FA1D78374800F772B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842709F91D78374800F772B2 /* TimerRetain导致循环引用问题探讨.app */,
+				84270A121D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests.xctest */,
+				84270A1D1D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842709FB1D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */ = {
+			isa = PBXGroup;
+			children = (
+				842709FF1D78374800F772B2 /* AppDelegate.h */,
+				84270A001D78374800F772B2 /* AppDelegate.m */,
+				84270A021D78374800F772B2 /* ViewController.h */,
+				84270A031D78374800F772B2 /* ViewController.m */,
+				84270A2F1D78375F00F772B2 /* ViewController1.h */,
+				84270A301D78375F00F772B2 /* ViewController1.m */,
+				84584B291D7EC74D00D6235C /* NSTimer+Block.h */,
+				84584B2A1D7EC74D00D6235C /* NSTimer+Block.m */,
+				84B37F1D1D8E9BD100D019B1 /* YYWeakProxy.h */,
+				84B37F1E1D8E9BD100D019B1 /* YYWeakProxy.m */,
+				848D31271D8FF33C00ED4B57 /* TestProxy.h */,
+				848D31281D8FF33C00ED4B57 /* TestProxy.m */,
+				84270A051D78374800F772B2 /* Main.storyboard */,
+				84270A081D78374800F772B2 /* Assets.xcassets */,
+				84270A0A1D78374800F772B2 /* LaunchScreen.storyboard */,
+				84270A0D1D78374800F772B2 /* Info.plist */,
+				842709FC1D78374800F772B2 /* Supporting Files */,
+			);
+			path = "TimerRetain导致循环引用问题探讨";
+			sourceTree = "<group>";
+		};
+		842709FC1D78374800F772B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842709FD1D78374800F772B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84270A151D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84270A161D78374800F772B2 /* TimerRetain__________Tests.m */,
+				84270A181D78374800F772B2 /* Info.plist */,
+			);
+			path = "TimerRetain导致循环引用问题探讨Tests";
+			sourceTree = "<group>";
+		};
+		84270A201D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84270A211D78374800F772B2 /* TimerRetain__________UITests.m */,
+				84270A231D78374800F772B2 /* Info.plist */,
+			);
+			path = "TimerRetain导致循环引用问题探讨UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842709F81D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84270A261D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨" */;
+			buildPhases = (
+				842709F51D78374800F772B2 /* Sources */,
+				842709F61D78374800F772B2 /* Frameworks */,
+				842709F71D78374800F772B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimerRetain导致循环引用问题探讨";
+			productName = "TimerRetain导致循环引用问题探讨";
+			productReference = 842709F91D78374800F772B2 /* TimerRetain导致循环引用问题探讨.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84270A111D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84270A291D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨Tests" */;
+			buildPhases = (
+				84270A0E1D78374800F772B2 /* Sources */,
+				84270A0F1D78374800F772B2 /* Frameworks */,
+				84270A101D78374800F772B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84270A141D78374800F772B2 /* PBXTargetDependency */,
+			);
+			name = "TimerRetain导致循环引用问题探讨Tests";
+			productName = "TimerRetain导致循环引用问题探讨Tests";
+			productReference = 84270A121D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84270A1C1D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84270A2C1D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨UITests" */;
+			buildPhases = (
+				84270A191D78374800F772B2 /* Sources */,
+				84270A1A1D78374800F772B2 /* Frameworks */,
+				84270A1B1D78374800F772B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84270A1F1D78374800F772B2 /* PBXTargetDependency */,
+			);
+			name = "TimerRetain导致循环引用问题探讨UITests";
+			productName = "TimerRetain导致循环引用问题探讨UITests";
+			productReference = 84270A1D1D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842709F11D78374800F772B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = __MyCompanyName__;
+				TargetAttributes = {
+					842709F81D78374800F772B2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84270A111D78374800F772B2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 842709F81D78374800F772B2;
+					};
+					84270A1C1D78374800F772B2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 842709F81D78374800F772B2;
+					};
+				};
+			};
+			buildConfigurationList = 842709F41D78374800F772B2 /* Build configuration list for PBXProject "TimerRetain导致循环引用问题探讨" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842709F01D78374800F772B2;
+			productRefGroup = 842709FA1D78374800F772B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842709F81D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */,
+				84270A111D78374800F772B2 /* TimerRetain导致循环引用问题探讨Tests */,
+				84270A1C1D78374800F772B2 /* TimerRetain导致循环引用问题探讨UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842709F71D78374800F772B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84270A0C1D78374800F772B2 /* LaunchScreen.storyboard in Resources */,
+				84270A091D78374800F772B2 /* Assets.xcassets in Resources */,
+				84270A071D78374800F772B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A101D78374800F772B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A1B1D78374800F772B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842709F51D78374800F772B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84270A311D78375F00F772B2 /* ViewController1.m in Sources */,
+				84584B2B1D7EC74D00D6235C /* NSTimer+Block.m in Sources */,
+				848D31291D8FF33C00ED4B57 /* TestProxy.m in Sources */,
+				84B37F1F1D8E9BD100D019B1 /* YYWeakProxy.m in Sources */,
+				84270A041D78374800F772B2 /* ViewController.m in Sources */,
+				84270A011D78374800F772B2 /* AppDelegate.m in Sources */,
+				842709FE1D78374800F772B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A0E1D78374800F772B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84270A171D78374800F772B2 /* TimerRetain__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84270A191D78374800F772B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84270A221D78374800F772B2 /* TimerRetain__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84270A141D78374800F772B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842709F81D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */;
+			targetProxy = 84270A131D78374800F772B2 /* PBXContainerItemProxy */;
+		};
+		84270A1F1D78374800F772B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842709F81D78374800F772B2 /* TimerRetain导致循环引用问题探讨 */;
+			targetProxy = 84270A1E1D78374800F772B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84270A051D78374800F772B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84270A061D78374800F772B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84270A0A1D78374800F772B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84270A0B1D78374800F772B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84270A241D78374800F772B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84270A251D78374800F772B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84270A271D78374800F772B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "374421c5-2afa-4617-82e8-66e35eeaa96e";
+			};
+			name = Debug;
+		};
+		84270A281D78374800F772B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "374421c5-2afa-4617-82e8-66e35eeaa96e";
+			};
+			name = Release;
+		};
+		84270A2A1D78374800F772B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerRetain导致循环引用问题探讨.app/TimerRetain导致循环引用问题探讨";
+			};
+			name = Debug;
+		};
+		84270A2B1D78374800F772B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerRetain导致循环引用问题探讨.app/TimerRetain导致循环引用问题探讨";
+			};
+			name = Release;
+		};
+		84270A2D1D78374800F772B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TimerRetain导致循环引用问题探讨";
+			};
+			name = Debug;
+		};
+		84270A2E1D78374800F772B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TimerRetain导致循环引用问题探讨UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangguobing.TimerRetain----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TimerRetain导致循环引用问题探讨";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842709F41D78374800F772B2 /* Build configuration list for PBXProject "TimerRetain导致循环引用问题探讨" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84270A241D78374800F772B2 /* Debug */,
+				84270A251D78374800F772B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84270A261D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84270A271D78374800F772B2 /* Debug */,
+				84270A281D78374800F772B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84270A291D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84270A2A1D78374800F772B2 /* Debug */,
+				84270A2B1D78374800F772B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84270A2C1D78374800F772B2 /* Build configuration list for PBXNativeTarget "TimerRetain导致循环引用问题探讨UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84270A2D1D78374800F772B2 /* Debug */,
+				84270A2E1D78374800F772B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842709F11D78374800F772B2 /* Project object */;
+}
